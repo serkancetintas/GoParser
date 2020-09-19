@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\WIN-DATA\\GoWorkspace\\src\\github.com\\serkancetintas\\GoParser\\GoService\\GoService\\GoService.csproj": {}
+  },
+  "projects": {
+    "C:\\WIN-DATA\\GoWorkspace\\src\\github.com\\serkancetintas\\GoParser\\GoService\\GoService\\GoService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WIN-DATA\\GoWorkspace\\src\\github.com\\serkancetintas\\GoParser\\GoService\\GoService\\GoService.csproj",
+        "projectName": "GoService",
+        "projectPath": "C:\\WIN-DATA\\GoWorkspace\\src\\github.com\\serkancetintas\\GoParser\\GoService\\GoService\\GoService.csproj",
+        "packagesPath": "C:\\Users\\scetintas\\.nuget\\packages\\",
+        "outputPath": "C:\\WIN-DATA\\GoWorkspace\\src\\github.com\\serkancetintas\\GoParser\\GoService\\GoService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\scetintas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[5.6.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.6.1, )"
+            },
+            "Swashbuckle.Core": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
